@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Application</h1>
+        <form id="crudForm">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Enter First Name">
+            
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Enter Last Name">
+            
+            <label for="rollNo">Roll No</label>
+            <input type="text" id="rollNo" placeholder="Enter Roll No">
+            
+            <button type="button" id="submitBtn">Submit</button>
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Roll No</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="crudTableBody">
+                <!-- Data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
